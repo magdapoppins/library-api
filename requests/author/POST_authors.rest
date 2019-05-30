@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/authors
+Content-Type: application/json
+
+{
+    "name": "Gloria Fields",
+    "birthDate": "2012-04-23",
+    "bookTitles": [
+        "Flowers in the Wind"
+    ]
+}

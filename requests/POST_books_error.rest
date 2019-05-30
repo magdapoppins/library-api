@@ -1,8 +1,0 @@
-POST http://localhost:3001/books
-Content-Type: application/json
-
-{
-    "author": "A. P. French",
-    "publishedYear": 1971,
-    "genre": "non-fiction"
-}

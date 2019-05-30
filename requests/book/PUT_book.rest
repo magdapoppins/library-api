@@ -1,4 +1,4 @@
-PUT http://localhost:3001/books/5ceeb03bdff6d37b757f47bb
+PUT http://localhost:3001/api/books/5ceeb03bdff6d37b757f47bb
 Content-Type: application/json
 
 {

@@ -1,12 +1,5 @@
 const mongoose = require('mongoose')
-
 mongoose.set('useFindAndModify', false)
-
-// Connect to MongoDB Atlas (creds in dotenv file)
-const mongoURL = process.env.DB_URL
-mongoose.connect(mongoURL, { useNewUrlParser: true }).then(() => {
-        console.log("connected to mongodb atlas")
-}).catch((err) => console.log(err))
 
 const bookSchema = new mongoose.Schema({
     title: {
