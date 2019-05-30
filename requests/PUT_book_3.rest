@@ -1,0 +1,9 @@
+PUT http://localhost:3001/books/5ceeb03bdff6d37b757f47bb
+Content-Type: application/json
+
+{
+    "title": "Vibrations and Winds",
+    "author": "A. P. French",
+    "publishedYear": 1981,
+    "genre": "non-fiction"
+}

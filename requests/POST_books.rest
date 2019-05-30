@@ -1,0 +1,9 @@
+POST http://localhost:3001/books
+Content-Type: application/json
+
+{
+    "title": "Programming Clojure",
+    "author": "Unknown",
+    "publishedYear": 2019,
+    "genre": "non-fiction"
+}
