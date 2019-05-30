@@ -8,11 +8,13 @@
 5) Run `npm run watch` to develop.
 
 ## Available endpoints  
-`GET /books`  
-`GET /books/:id`  
-`POST /books`  
-`DELETE /books/:id`  
-`PUT /books/:id`  
+`GET /api/books`  
+`GET /api/books/:id`  
+`POST /api/books`  
+`DELETE /api/books/:id`  
+`PUT /api/books/:id` 
+`GET /api/authors`  
+`POST /api/authors` 
 
 ## Built with
 - Express.js
@@ -21,3 +23,6 @@
 - Nodemon
 - dotenv
 - cors
+- jest
+- supertest
+- lodash
