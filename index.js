@@ -17,6 +17,18 @@ const errorHandler = (error, request, response, next) => {
 app.use(bodyParser.json())
 app.use(cors())
 app.use(errorHandler)
+
+const availableEndpoints = [
+    "GET /books",
+    "GET /books/:id",
+    "POST /books",
+    "PUT /books/:id",
+    "DELETE /books/:id"
+]
+
+app.get('/', (req, res) => {
+    res.json(availableEndpoints)
+})
   
 app.get('/books', (req, res) => {
     Book.find({}).then(books => {
